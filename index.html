@@ -1,14 +1,265 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-</head>
+    <!-- ===== BOX ICON ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel="stylesheet">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css"/>
+    <title>Kevin Nuarillo Portfolio</title>
+  </head>
+  <body>
+    <!-- ===== SCROLL TOP =====-->
+    <a class="scrolltop" id="scroll-top" href="#">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+    
+    <!-- ===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a class="nav__logo" href="#">Kevin Nuarillo</a>
+        
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link active-link" href="#home">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            <li class="nav__item"><a class="nav__link download-cv" href="#contact">Download CV</a></li>
+          </ul>
+        </div>
+        
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+     
+      <!-- ===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="profile-photo">
+            <img class="photo" src="/img/kevin.jpg" alt="Kevin Nuarillo" />
+          </div>
+          <div class="home-data">
+            <span class="home__greeting">Hello, My name is</span>
+            <h1 class="home__name">Muhammad Kevin Nuarillo</h1>
+            <span class="home__profession">Backend Developer</span>
+          </div>
+          
+          <div class="home__social">
+            <a class="home__social-icon" href="https://github.com/kevinnuarillo"><li class="bx bxl-github"></li></a>
+            <a class="home__social-icon" href="https://www.linkedin.com/in/muhammad-kevin-nuarillo-b4805a21b"><li class="bx bxl-linkedin"></li></a>
+            <a class="home__social-icon" href="https://twitter.com/kevinnuarillo?t=TG5hRil3ZF0voIPS0JHAiA&s=09"><li class="bx bxl-twitter"></li></a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ===== ABOUT =====-->
+      <section class="about section bd-container" id="about">
+        <span class="section-subtitle">My history</span>
+        <h2 class="section-title">About me</h2>
+        
+        <div class="about__container bd-grid">
+          <div class="about__data bd-grid">
+            <p class="about__description"><span>Hello I am<br></span>Backend developer, just learning about programming and focusing on nodejs.</p>
+            
+            <div>
+              <span class="about__number">05</span>
+              <span class="about__achievement">Years of experience</span>
+            </div>
+            
+            <div>
+              <span class="about__number">01</span>
+              <span class="about__achievement">FreeCodeCamp challenge complete</span>
+            </div>
+            
+            <div>
+              <span class="about__number">01</span>
+              <span class="about__achievement">Udemy bootcamp web development</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ===== QUALIFICATION =====-->
+      <section class="qualification section bd-container">
+        <span class="section-subtitle">Education and Experience</span>
+        <h2 class="section-title">Qualification</h2>
+        
+        <div class="qualification__container bd-grid">
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              Education
+            </h3>
+            
+            <div class="bd-grid">
+              <div class="qualification__data">
+                <h3 class="qualification__area">Multimedia</h3>
+                
+                <div class="qualification__box">
+                  <span class="qualification__work">
+                   <i class='bx bx-book qualification__title-icon'></i>
+                   SMK Negeri 14 Bandung
+                  </span>
+                  
+                  <span class="qualification__work">
+                   <i class='bx bxs-graduation qualification__title-icon'></i>
+                   2013
+                  </span>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <h3 class="qualification__area">Diploma - Multimedia</h3>
+                
+                <div class="qualification__box">
+                  <span class="qualification__work">
+                   <i class='bx bx-book qualification__title-icon'></i>
+                   Polytechnic Piksi Ganesha Bandung
+                  </span>
+                  
+                  <span class="qualification__work">
+                   <i class='bx bxs-graduation qualification__title-icon'></i>
+                   2019
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+            Internship
+            </h3>
+                
+            <div class="qualification__data">
+              <h3 class="qualification__area">Content Editor</h3>
+                
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class='bx bx-briefcase qualification__title-icon'></i>
+                  The House of Bleu
+                </span>
+                  
+                <span class="qualification__work">
+                   <i class='bx bx-calendar qualification__title-icon'></i>
+                   2018 - 2020
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== PORTFOLIO =====-->
+      <section class="portfolio section bd-container" id="portfolio">
+       <span class="section-subtitle">My recent work</span>
+       <h2 class="section-title">Portfolio</h2>
+       
+       <div class="portfolio__nav">
+         <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+         <span class="portfolio__item" data-filter=".web">Web</span>
+         <span class="portfolio__item" data-filter=".video">Videography</span>
+       </div>
+       
+       <div class="portfolio__container bd-grid">
+         <div class="portfolio__content mix web">
+           <a href="#"><img class="portfolio__img" src="/img/itzy-survey-form.jpg" alt="" /></a>
+             <div class="portfolio__data">
+               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
+                 <a href="#"><h2 class="portfolio__title">Itzy Survey Form</h2></a>
+                 <a class="button button__link" href="#">View Details</a>
+                 <a class="button bx bxl-github button__link button__github" href="#"></a>
+             </div>
+         </div>
+         
+         <div class="portfolio__content mix web">
+           <a href="#"><img class="portfolio__img" src="/img/itzy-tribute-page.jpg" alt="" /></a>
+             <div class="portfolio__data">
+               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
+                 <a href="#"><h2 class="portfolio__title">Itzy Tribute Page</h2></a>
+                 <a class="button button__link" href="#">View Details</a>
+                 <a class="button bx bxl-github button__link" href="#"></a>
+             </div>
+         </div>
+         
+         <div class="portfolio__content mix web">
+           <a href="#"><img class="portfolio__img" src="/img/technical-documentation.jpg" alt="" /></a>
+             <div class="portfolio__data">
+               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
+                 <a href="#"><h2 class="portfolio__title">Technical Documentation of Javascript Variables</h2></a>
+                 <a class="button button__link" href="#">View Details</a>
+                 <a class="button bx bxl-github button__link" href="#"></a>
+             </div>
+         </div>
+         
+         <div class="portfolio__content mix web">
+           <a href="#"><img class="portfolio__img" src="/img/color-gradient.jpg" alt="" /></a>
+             <div class="portfolio__data">
+               <span class="portfolio__subtitle">Self taugh challenge create a color gradient using CSS</span>
+                 <a href="#"><h2 class="portfolio__title">Color Gradient</h2></a>
+                 <a class="button button__link" href="#">View Details</a>
+                 <a class="button bx bxl-github button__link" href="#"></a>
+             </div>
+         </div>
+         
+         <div class="portfolio__content mix web">
+           <a href="#"><img class="portfolio__img" src="/img/mobile-first.jpg" alt="" /></a>
+             <div class="portfolio__data">
+               <span class="portfolio__subtitle">Build a responsive web. Desktop, Laptop, Tablet, Smartphone</span>
+                 <a href="#"><h2 class="portfolio__title">Mobile First</h2></a>
+                 <a class="button button__link" href="#">View Details</a>
+                 <a class="button bx bxl-github button__link" href="#"></a>
+             </div>
+         </div>
+       </div>
+       
+      </section>
+      
+      <!-- ===== CONTACT =====-->
+      <section class="contact section bd-container" id="contact">
+        <span class="section-subtitle">Information</span>
+        <h2 class="section-title">Contact</h2>
+       
+        <div class="contact__container bd-grid">
+          <div class="contact__content bd-grid">
+            <div class="contact__box">
+              <i class='bx bxs-home contact__icon' ></i>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__description">Bandung - Indonesia</span>
+            </div>
+            
+            <div class="contact__box">
+              <i class='bx bxs-phone contact__icon' ></i>
+              <h3 class="contact__title">Phone Number</h3>
+              <span class="contact__description">+6285156227936</span>
+            </div>
+            
+            <div class="contact__box">
+              <i class='bx bxs-envelope contact__icon' ></i>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__description">kevinnuarillo@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== FOOTER =====-->
+    <section id="follow">
+      <p>Created with <i class='bx bxs-heart'></i> by <a href="https://www.instagram.com/mkevinnuarillo/" class="text-white fw-bold">Kevin Nuarillo</a></p>
+    </section>
+    <!-- ===== MIXITUP FILTER =====-->
+    <script src="/mixitup.min.js"></script>
+    
+    <!-- ===== SWIPER JS =====-->
+    <script src=""></script>
 
-<body>
+    <!-- ===== GSAP =====-->
+    <script src=""></script>
 
-</body>
+    <!-- ===== MAIN JS =====-->
+    <script src="main.js"></script>
 
+  </body>
 </html>
