@@ -57,9 +57,9 @@ window.addEventListener('scroll', scrollTop)
 
 
 /*===== MIXITUP FILTER PORTFOLIO =====*/
-const mixer = mixitup('.portfolio__container', {
+const mixer = mixitup('#mixitup-container', {
  selectors: {
-  target: '.portfolio__content'
+  target: '#mixitup-content'
  },
   animation: {
    duration: 400
