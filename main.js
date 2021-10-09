@@ -67,7 +67,7 @@ var mixer = mixitup('#mixitup-container', {
 });
 
 /* LINK ACTIVE PORTFOLIO */
-var linkPortfolio = document.querySelectorAll('.portfolio__item');
+var linkPortfolio = document.querySelectorAll('#mixitup-item');
 
 function activePortfolio(){
  if(linkPortfolio){
