@@ -57,7 +57,7 @@ window.addEventListener('scroll', scrollTop)
 
 
 /*===== MIXITUP FILTER PORTFOLIO =====*/
-const mixer = mixitup('#mixitup-container', {
+var mixer = mixitup('#mixitup-container', {
  selectors: {
   target: '#mixitup-content'
  },
@@ -67,7 +67,7 @@ const mixer = mixitup('#mixitup-container', {
 });
 
 /* LINK ACTIVE PORTFOLIO */
-const linkPortfolio = document.querySelectorAll('.portfolio__item')
+var linkPortfolio = document.querySelectorAll('.portfolio__item')
 
 function activePortfolio(){
  if(linkPortfolio){
