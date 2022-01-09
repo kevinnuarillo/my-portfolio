@@ -120,7 +120,7 @@ img {
  
 /*===== LAYOUT ======*/
 .bd-container {
- max-width: 1024px;
+ /* max-width: 800px; */
  width: calc(100% - 2rem);
  margin-left: var(--mb-2);
  margin-right: var(--mb-2);
@@ -177,7 +177,7 @@ img {
 }
 
 .nav__logo, .nav__toggle {
- color: var(--first-color-light);
+ color: white;
 }
 
 .nav__toggle {
