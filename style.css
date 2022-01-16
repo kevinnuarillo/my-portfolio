@@ -96,7 +96,6 @@ img {
  display: block;
 }
 
-
 /*===== CLASS CSS ======*/
  .section {
   padding: 4rem 0 2rem;
@@ -184,6 +183,7 @@ img {
  font-size: 1.3rem;
  cursor: pointer;
 }
+
 /* Show Menu */
 .show-menu {
  top: var(--header-height);
