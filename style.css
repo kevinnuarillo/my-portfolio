@@ -68,7 +68,7 @@ body {
  font-family: var(--body-font);
  font-size: var(--normal-font-size);
  font-weight: var(--font-medium);
- background-color: var(--first-color-lighten);
+ background-color: #0D1117;
  color: var(--text-color);
  line-height: 1.6;
 }
@@ -107,7 +107,7 @@ img {
  
  .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: white;
   margin-bottom: var(--mb-3);
  }
  
@@ -167,12 +167,12 @@ img {
 }
 
 .nav__link {
- color: var(--first-color-lighten);
+ color: white;
  transition: 0.3s;
 }
 
 .nav__link:hover {
- color: var(--first-color-light);
+ color: white;
 }
 
 .nav__logo, .nav__toggle {
@@ -201,22 +201,18 @@ img {
  left: 0%;
  width: 65%;
  height: 3px;
- background-color: var(--first-color-light);
+ background-color: #797A85;
 }
 
 /* Change Background Header */
 .scroll-header {
- background-color: var(--first-color-lighten);
+ background-color: #0D1117;
  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .scroll-header .nav__logo, .scroll-header .nav__toggle, .scroll-header .nav__link {
- color: var(--first-color-dark);
+ color: white;
 } 
-
-.scroll-header .nav__menu {
- background-color: var(--first-color-lighten);
-}
 
 /*===== SCROLL TOP ======*/
 .scrolltop {
@@ -240,7 +236,7 @@ img {
 
 .scrolltop__icon {
  font-size: 2rem;
- color: var(--first-color-lighten);
+ color: white;
 }
 
 /* Show Scroll Top */
@@ -406,7 +402,7 @@ img {
 }
 
 .portfolio__data {
- padding: 1.5rem;
+ padding: 1rem;
 }
 
 .portfolio__subtitle {
