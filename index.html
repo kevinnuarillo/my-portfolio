@@ -25,7 +25,6 @@
             <li class="nav__item"><a class="nav__link active-link" href="#home">Home</a></li>
             <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
             <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
-            <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
             <li class="nav__item"><a class="nav__link download-cv" href="#contact">Download CV</a></li>
           </ul>
         </div>
@@ -42,7 +41,6 @@
         <div class="home__container bd-container bd-grid">
           <div class="profile-photo">
             <img class="photo" src="https://i.postimg.cc/zffxzFPn/kevin.jpg" alt="Kevin Nuarillo" />
-            
           </div>
           <div class="home-data">
             <span class="home__greeting">Hello, My name is</span>
@@ -155,60 +153,74 @@
        <h2 class="section-title">Portfolio</h2>
        
        <div class="portfolio__nav">
-         <a class="portfolio__item active-portfolio" data-filter="all" id="mixitup-item">All</a>
-         <a class="portfolio__item" data-filter=".web" id="mixitup-item">HTML & CSS</a>
-         <a class="portfolio__item" data-filter=".nodejs" id="mixitup-item">NodeJS</a>
+         <span class="portfolio__item active-portfolio" data-filter="all" id="mixitup-item">All</span>
+         <span class="portfolio__item" data-filter=".web" id="mixitup-item">HTML & CSS</span>
+         <span class="portfolio__item" data-filter=".nodejs" id="mixitup-item">NodeJS</span>
        </div>
        
        <!--- ==== PORTFOLIO CONTAINER ==== --->
        <div class="portfolio__container bd-grid" id="mixitup-container">
          
          <div class="portfolio__content mix nodejs" id="mixitup-content">
-           <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/q7bnYWkF/20211229-152437.jpg" alt="" /></a>
+           <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/50PttR9v/login-1.jpg" alt="" /></a>
              <div class="portfolio__data">
-               <span class="portfolio__subtitle">Make SignUp page with API</span>
-               <ul >
-                <li>• Using mailchimp API</li>
-                <li>• Make signup success and not succeess route</li>
-                <li>• When signup is succeed, the data updated to mailchimp</li>
-               </ul>
-                 <a href="#"><h2 class="portfolio__title">Newsletter Signup</h2></a>
-                 <a class="button button__link" href="https://finalfantasy-newsletter-signup.herokuapp.com/" target="_blank">View Details</a>
+                <div class="card__header">
+                    <span class="portfolio__subtitle">Make SignUp page with API</span>
+                    <ul class="portfolio__description">
+                        <li>• Mailchimp API</li>
+                        <li>• Express JS</li>
+                        <li>• Bootstrap</li>
+                        <li>• Bootstrap</li>
+                    </ul>
+                </div>
+                    <a href="#"><h2 class="portfolio__title">Newsletter Signup</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://finalfantasy-newsletter-signup.herokuapp.com/" target="_blank">View Details</a>
+                 </div>
              </div>
          </div>
          
          <div class="portfolio__content mix web" id="mixitup-content">
            <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/0QD2bDzN/itzy-survey-form.jpg" alt="" /></a>
              <div class="portfolio__data">
-               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
-               <ul >
-                <li>• Learn how to make form and label</li>
-                <li>• Using a checkbox</li>
-                <li>• Make an option inside form</li>
-               </ul>
-                 <a href="#"><h2 class="portfolio__title">Itzy Survey Form</h2></a>
-                 <a class="button button__link" href="https://kevinnuarillo.github.io/survey-form-itzy/" target="_blank">View Details</a>
-                 <a class="button bx bxl-github button__link button__github" href="https://github.com/kevinnuarillo/survey-form-itzy" target="_blank"></a>
+                 <div class="card__header">
+                    <span class="portfolio__subtitle">FreeCodeCamp Responsive Web</span>
+                    <ul class="portfolio__description">
+                        <li>• HTML5&CSS3</li>
+                        <li>• Form label</li>
+                        <li>• Checkbox</li>
+                        <li>• Option</li>
+                    </ul>
+                 </div>
+                    <a href="#"><h2 class="portfolio__title">Itzy Survey Form</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://kevinnuarillo.github.io/survey-form-itzy/" target="_blank">View Details</a>
+                    <a class="button bx bxl-github button__link button__github" href="https://github.com/kevinnuarillo/survey-form-itzy" target="_blank"></a>
+                 </div>
              </div>
          </div>
          
          <div class="portfolio__content mix web" id="mixitup-content">
            <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/Cx2F7mD1/itzy-tribute-page.jpg" alt="" /></a>
              <div class="portfolio__data">
-               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
-                 <a href="#"><h2 class="portfolio__title">Itzy Tribute Page</h2></a>
-                 <a class="button button__link" href="https://kevinnuarillo.github.io/Tribute-Page-Itzy/" target="_blank">View Details</a>
-                 <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/Tribute-Page-Itzy" target="_blank"></a>
+               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web</span>
+                    <a href="#"><h2 class="portfolio__title">Itzy Tribute Page</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://kevinnuarillo.github.io/Tribute-Page-Itzy/" target="_blank">View Details</a>
+                    <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/Tribute-Page-Itzy" target="_blank"></a>
+                 </div>
              </div>
          </div>
          
          <div class="portfolio__content mix web" id="mixitup-content">
            <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/J0Rm0gwT/technical-documentation.jpg" alt="" /></a>
              <div class="portfolio__data">
-               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web Challenge</span>
-                 <a href="#"><h2 class="portfolio__title">Technical Documentation Javascript Variables</h2></a>
-                 <a class="button button__link" href="https://kevinnuarillo.github.io/technical-documentation-fcc-/" target="_blank">View Details</a>
-                 <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/technical-documentation-fcc-" target="_blank"></a>
+               <span class="portfolio__subtitle">FreeCodeCamp Responsive Web</span>
+                    <a href="#"><h2 class="portfolio__title">Technical Documentation Javascript Variables</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://kevinnuarillo.github.io/technical-documentation-fcc-/" target="_blank">View Details</a>
+                    <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/technical-documentation-fcc-" target="_blank"></a>
+                 </div>
              </div>
          </div>
          
@@ -216,9 +228,11 @@
            <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/RZkkq8Kc/color-gradient.jpg" alt="" /></a>
              <div class="portfolio__data">
                <span class="portfolio__subtitle">Self taugh challenge create a color gradient using CSS</span>
-                 <a href="#"><h2 class="portfolio__title">Color Gradient</h2></a>
-                 <a class="button button__link" href="https://kevinnuarillo.github.io/Color-Gradient/" target="_blank">View Details</a>
-                 <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/Color-Gradient" target="_blank"></a>
+                    <a href="#"><h2 class="portfolio__title">Color Gradient</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://kevinnuarillo.github.io/Color-Gradient/" target="_blank">View Details</a>
+                    <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/Color-Gradient" target="_blank"></a>
+                 </div>
              </div>
          </div>
          
@@ -226,9 +240,11 @@
            <a href="#"><img class="portfolio__img" src="https://i.postimg.cc/0jtgQy0Q/mobile-frst.jpg" alt="" /></a>
              <div class="portfolio__data">
                <span class="portfolio__subtitle">Build a responsive web. Desktop, Laptop, Tablet, Smartphone</span>
-                 <a href="#"><h2 class="portfolio__title">Mobile First</h2></a>
-                 <a class="button button__link" href="https://kevinnuarillo.github.io/mobile-first/" target="_blank">View Details</a>
-                 <a class="button bx bxl-github button__link" href="https://github.com/kevinnuarillo/mobile-first" target="_blank"></a>
+                    <a href="#"><h2 class="portfolio__title">Mobile First</h2></a>
+                 <div class="button__card">
+                    <a class="button button__link" href="https://kevinnuarillo.github.io/mobile-first/" target="_blank">View Details</a>
+                    <a class="button button__github bx bxl-github button__link" href="https://github.com/kevinnuarillo/mobile-first" target="_blank"></a>
+                 </div>
             </div>
          </div>
        </div>
